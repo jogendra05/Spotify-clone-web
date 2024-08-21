@@ -1,6 +1,7 @@
 let songs;
 let currFolder;
 
+// Get the songs
 async function getSongs(folder) {
     currFolder = folder
     let a = await fetch(`/${folder}`);
