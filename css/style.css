@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    
-    /* overflow: hidden; */
 }
 
 body{
@@ -17,12 +15,7 @@ body{
 .left{
     width: 25vw;
     margin-left: 8px;
-    /* position: absolute; */
-    height:calc(100% - 100%); /* Start just after the first div */
-    /* left: 0; */
-    /* right: 0; */
-    /* bottom: 0; */
-    /* height: 88vh; */
+    height:calc(100% - 100%); 
     height: calc(100vh - 60px);
     background-color: black;
     position: relative;
@@ -32,19 +25,11 @@ body{
     width: 75vw;
     position: relative;
     background-color: #101010;
-    /* overflow: hidden; */
-    /* height: 88vh; */
     height: calc(100vh - 60px);
 }
 
 .logo{
     padding: 8px;
-}
-
-
-.home{
-    /* height: 24%; */
-    /* max-height: 200px; */
 }
 
 .home ul li{
@@ -86,8 +71,6 @@ body{
 .footer{
     display: flex;
     height: 100%;
-    /* position: absolute;
-    bottom: 0; */
     flex-wrap: wrap;
     width: 200px;
     justify-content: space-between;
@@ -188,10 +171,6 @@ body{
     /* color: white; */
 }
 
-.spotifyPlaylist{
-    /* height: 100%; */
-}
-
 .spotifyPlaylist h1{
     margin-top: 10px;
     margin-left: 10px;
@@ -207,7 +186,6 @@ body{
     overflow-y: scroll;
     overflow: auto;
     max-height: 65vh;
-    /* height: 100%; */
 }
 
 :root{
@@ -271,11 +249,6 @@ body{
 }
 
 .playbar{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* flex-wrap: wrap; */
-    /* position: absolute; */
     position: fixed;
     bottom: 0;
     right: .1px;
@@ -300,12 +273,6 @@ body{
     /* height: 360px; */
     height: 93%;
     overflow: auto;
-}
-
-.songList{
-    /* height: 60%; */
-    /* overflow: auto; */
-    /* margin: 44px 0; */
 }
 
 .songList ul{
@@ -342,9 +309,6 @@ body{
 
 .info{
     font-size: 14px;
-    /* word-break: break-all; */
-    /* width: 344px; */
-    /* display: block; */
 }
 
 .seekContain{
