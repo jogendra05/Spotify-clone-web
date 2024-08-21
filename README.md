@@ -6,6 +6,10 @@ This project is a Spotify clone that captures the essence of Spotify's theme. It
 
 This web application replicates the look and feel of Spotify using basic web technologies. It's built entirely with **HTML**, **CSS**, and **JavaScript**. The project is fully responsive and offers a similar user experience to the original Spotify in terms of design.
 
+## Live Demo
+
+You can view the live version of the project here: [Spotify Clone Live Demo](http://spotifymusicwebb.freewebhostmost.com/))
+
 ## Features
 
 - **Responsive Design**: The application is designed to be fully responsive, ensuring a consistent user experience across different devices.
@@ -32,4 +36,4 @@ This web application replicates the look and feel of Spotify using basic web tec
    ```bash
    cd spotify-clone
 
-3.Open the `index.html` file in your preferred web browser to view the application.
+3. Open the `index.html` file in your preferred web browser to view the application.
