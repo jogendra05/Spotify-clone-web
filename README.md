@@ -20,10 +20,6 @@ This web application replicates the look and feel of Spotify using basic web tec
 
 ## Getting Started
 
-### Prerequisites
-
-To run this project locally, you only need a web browser. No server setup is required as it is a front-end-only application.
-
 ### Installation
 
 1. Clone the repository:
@@ -32,6 +28,8 @@ To run this project locally, you only need a web browser. No server setup is req
    git clone https://github.com/yourusername/spotify-clone.git
 
 2. Navigate to the project directory:
+
+   ```bash
    cd spotify-clone
 
 3.Open the `index.html` file in your preferred web browser to view the application.
