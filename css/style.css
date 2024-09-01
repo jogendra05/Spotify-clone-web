@@ -15,7 +15,7 @@ body{
 .left{
     width: 25vw;
     margin-left: 8px;
-    height:calc(100% - 100%); 
+    height:calc(100% - 100%);
     height: calc(100vh - 60px);
     background-color: black;
     position: relative;
@@ -80,7 +80,6 @@ body{
     color: #b6adad;
     font-size: 11px;
     text-decoration: none;
-    /* gap: 30px; */
 }
 
 .singerName{
@@ -89,7 +88,6 @@ body{
 }
 
 .library{ 
-    /* min-height: 69.9vh; */
     height: 76%;
     position: relative;
 }
@@ -117,7 +115,7 @@ body{
 
 .hamburger{
     display: none;
-    width: 35px;
+    width: 30px;
 }
 
 .close{
@@ -175,7 +173,6 @@ body{
     margin-top: 10px;
     margin-left: 10px;
     padding: 8px;
-    /* margin: 10px; */
 }
 
 .cardContainer{
@@ -186,6 +183,7 @@ body{
     overflow-y: scroll;
     overflow: auto;
     max-height: 65vh;
+    /* height: 100%; */
 }
 
 :root{
@@ -197,7 +195,6 @@ body{
     width: 200px;
     padding: 10px;
     border-radius: 5px;
-    /* background-color: #252525; */
     position: relative;
     cursor: pointer;
 }
@@ -249,6 +246,11 @@ body{
 }
 
 .playbar{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+    /* position: absolute; */
     position: fixed;
     bottom: 0;
     right: .1px;
@@ -357,9 +359,6 @@ body{
 
 .songinfo{
     padding: 0 12px;
-    /* width: 250px; */
-    /* border: 2px solid white; */
-    /* margin-left: 40px; */
     display: inline-block;
     position: absolute;
     left: 35px;
@@ -419,6 +418,7 @@ body{
         &:hover{
             cursor: pointer;
         }
+
     }
 
     .close{
@@ -430,10 +430,6 @@ body{
 
     .card{
         width: 44vh;
-    }
-
-    .cardContainer{
-        /* margin: 0; */
     }
 
     .right{
@@ -474,7 +470,14 @@ body{
 
     .buttons{
         display: flex;
-        min-width: 252px;
+        /* min-width: 252px; */
+        /* padding: 0; */
+        font-size: 12px;
+    }
+
+    .button1, .button2{
+        margin: 0;
+        padding: 12px 22px;
     }
 
     .buttons>*{
@@ -489,7 +492,11 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        max-height: 58vh;
+        max-height: 56vh;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none; 
     }
 
     .card{
